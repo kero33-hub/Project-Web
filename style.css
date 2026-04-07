@@ -1,0 +1,129 @@
+/* =====================
+   Smart Parking System
+   style.css
+   ===================== */
+
+/* --- Background Color --- */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 20px;
+}
+
+/* --- Heading Styling --- */
+h1 {
+    color: #1a1a2e;
+    font-size: 32px;
+}
+
+h2 {
+    color: #16213e;
+    font-size: 24px;
+}
+
+/* --- Paragraph Styling --- */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1e0a90;
+}
+
+/* --- Navigation Bar --- */
+nav {
+    background-color: #1a1a2e;
+    padding: 12px 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #00c2ff;
+}
+
+/* --- Images --- */
+img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* --- Table --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #cccccc;
+}
+
+th {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+tr:hover td {
+    background-color: #e8f4ff;
+}
+
+/* --- Form --- */
+label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #00c2ff;
+    color: #1a1a2e;
+}
+
+/* --- Links --- */
+a {
+    color: #00c2ff;
+}
+
+a:hover {
+    color: #1a1a2e;
+}
+
+/* --- HR --- */
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 30px 0;
+}
