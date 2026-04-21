@@ -5,46 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Parking System</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation Bar (Week 4) -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <!-- Main Heading -->
     <h1>Welcome to Smart Parking System</h1>
 
-    <!-- Paragraph 1 -->
-    <p>
-        Our Smart Parking System helps you find available parking spots
-        quickly and easily. No more wasting time looking for a place to park!
-    </p>
+    <!-- Layout (Flexbox) -->
+    <div class="container">
 
-    <!-- Paragraph 2 -->
-    <p>
-        We offer 24/7 parking services with real-time availability updates.
-        Book your spot in advance and arrive stress-free.
-    </p>
+        <div class="box">
+            <h2>Easy Parking</h2>
+            <p>
+                Our Smart Parking System helps you find available parking spots
+                quickly and easily.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Save Time</h2>
+            <p>
+                Book your spot in advance and arrive stress-free with real-time updates.
+            </p>
+        </div>
+
+    </div>
+
+    <hr>
 
     <!-- Images -->
     <h2>Our Parking</h2>
 
-    <img src="Images\paring1.avif" alt="Parking lot with available spaces" width="400">
+    <img src="Images/paring1.avif" alt="Parking lot with available spaces">
     <br><br>
-    <img src="Images\paring2.avif" alt="Smart parking entrance" width="400">
+    <img src="Images/paring2.avif" alt="Smart parking entrance">
+
     <hr>
 
     <!-- Links -->
     <h2>Quick Links</h2>
 
-    <!-- Internal Link -->
     <p>
-        <a href="product.html">Product </a>
+        <a href="product.html">Go to Products</a>
     </p>
 
-    <!-- External Link -->
     <p>
         <a href="https://www.google.com/maps" target="_blank">Find us on Google Maps</a>
     </p>
+
+    <hr>
+
+    <!-- JavaScript Section (Week 5) -->
+    <h2 id="demo">Click any button 👇</h2>
+
+    <button onclick="changeText()">Change Text</button>
+
+
+    <button onclick="showMessage()">Show Message</button>
+
+    <!-- Link JS -->
+    <script src="script.js"></script>
 
 </body>
 
