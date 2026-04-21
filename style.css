@@ -77,9 +77,11 @@ nav a:hover {
 
 /* --- Images --- */
 img {
-    border-radius: 8px;
-    margin-bottom: 10px;
-    width: 100%;
+
+   
+    margin: 10px auto;
+    width: 200%;
+    max-width: 400px;
 }
 
 /* --- Table --- */
